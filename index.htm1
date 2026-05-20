@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>倖田一平 Official Website</title>
+
+  <style>
+    body{
+      margin:0;
+      background:#111;
+      color:#f5f5f5;
+      font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+      line-height:1.8;
+    }
+
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:40px 20px;
+      background:
+      linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+      url('https://images.unsplash.com/photo-1503095396549-807759245b35?q=80&w=1600&auto=format&fit=crop');
+      background-size:cover;
+      background-position:center;
+    }
+
+    .hero-inner{
+      max-width:700px;
+    }
+
+    h1{
+      font-size:64px;
+      margin:0;
+      letter-spacing:.08em;
+      font-weight:300;
+    }
+
+    .sub{
+      margin-top:12px;
+      font-size:20px;
+      color:#ccc;
+    }
+
+    .lead{
+      margin-top:40px;
+      font-size:18px;
+      color:#ddd;
+    }
+
+    section{
+      max-width:1000px;
+      margin:auto;
+      padding:80px 24px;
+    }
+
+    h2{
+      font-size:32px;
+      margin-bottom:30px;
+      font-weight:300;
+      border-bottom:1px solid #333;
+      padding-bottom:10px;
+    }
+
+    .profile p{
+      margin:10px 0;
+      color:#ddd;
+    }
+
+    .works-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:50px;
+    }
+
+    .works-grid ul{
+      padding-left:18px;
+      color:#ccc;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .gallery img{
+      width:100%;
+      height:320px;
+      object-fit:cover;
+      border-radius:12px;
+    }
+
+    a{
+      color:#fff;
+    }
+
+    footer{
+      text-align:center;
+      padding:60px 20px;
+      color:#888;
+      border-top:1px solid #333;
+    }
+
+    @media(max-width:768px){
+
+      h1{
+        font-size:42px;
+      }
+
+      .works-grid{
+        grid-template-columns:1fr;
+      }
+
+      .lead{
+        font-size:16px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <h1>倖田 一平</h1>
+
+      <div class="sub">
+        Actor / Director / Acting Trainer
+      </div>
+
+      <div class="lead">
+        富良野塾16期生として倉本聰に師事。<br>
+        舞台を中心に、俳優・演出家・演技トレーナーとして活動。<br><br>
+
+        会話の温度、生活の匂い、人と人の距離感。<br>
+        日常の中にある感情を丁寧に描く作品を得意とする。
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>PROFILE</h2>
+
+    <div class="profile">
+      <p>倖田一平（こうだ いっぺい）</p>
+      <p>1979年9月4日生まれ / 東京都昭島市出身</p>
+      <p>身長185cm / 血液型O型</p>
+      <p>俳優・演出家・演技トレーナー</p>
+      <p>富良野塾16期生として倉本聰に師事</p>
+      <p>2026年3月、「比佐一平」から「倖田一平」へ改名</p>
+
+      <p>
+        Wikipedia：
+        <a href="https://ja.wikipedia.org/wiki/比佐一平">
+          比佐一平
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>WORKS</h2>
+
+    <div class="works-grid">
+
+      <div>
+        <h3>STAGE</h3>
+
+        <ul>
+          <li>今日、悲別で…</li>
+          <li>東風コチ 夕立 土用波</li>
+          <li>光の庭</li>
+          <li>BANANA FISH</li>
+          <li>エダニク</li>
+          <li>あいついつまでもやってる</li>
+          <li>杏仁豆腐のココロ</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>SCREEN</h3>
+
+        <ul>
+          <li>歌姫</li>
+          <li>家政婦のミタ</li>
+          <li>ドクターX〜外科医・大門未知子〜</li>
+          <li>やすらぎの郷</li>
+          <li>光と血</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>GALLERY</h2>
+
+    <div class="gallery">
+
+      <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop">
+
+      <img src="https://images.unsplash.com/photo-1503095396549-807759245b35?q=80&w=1200&auto=format&fit=crop">
+
+      <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=1200&auto=format&fit=crop">
+
+    </div>
+  </section>
+
+  <section>
+    <h2>CONTACT</h2>
+
+    <p>X : @heppoco94</p>
+    <p>Instagram : @ippey_h</p>
+  </section>
+
+  <footer>
+    © 倖田一平
+  </footer>
+
+</body>
+</html>
